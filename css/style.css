@@ -2,3 +2,59 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+.container {
+  background-color: whitesmoke;
+}
+
+.flex-container {
+  background-color: whitesmoke;
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.box {
+  background-color: dodgerblue;
+  height: 100px;
+  width: 100px;
+  border: 1px solid lightgrey;
+}
+
+#flex {
+  display: flex;
+}
+
+#inline-flex{
+  display: inline-flex;
+}
+
+#flex-start {
+  justify-content: flex-start;
+}
+
+#flex-end {
+  justify-content: flex-end;
+}
+
+#center {
+  justify-content: center;
+}
+
+#space-around {
+  justify-content: space-around;
+}
+
+#space-between {
+  justify-content: space-between;
+}
