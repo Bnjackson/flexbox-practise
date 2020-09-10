@@ -2,14 +2,76 @@
 <html>
 <head>
   <title>Flexbox Practise</title>
-  <link rel="stylesheet" href="../css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <main>
-    <section>
-    </section>  
+    <div>
+      <h2>Display: Flex</h2>
+      <p>The child elements of the flex container will display inline.</p>
+      <div id="flex" class="flex-container" id="flex">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <h2>Display: Block</h2>
+      <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <h2>Display: Inline-flex</h2>
+      <p>Allows us to display multiple flex containers inline with each other.</p>
+      <div class="container" id="inline-flex">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <div class="container" id="inline-flex">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <h1>justify-content</h1>
+      <p>The default behavior of flex items is to display at the upper left corner of the parent container. We can change this using justify-content.</p>
+      <h2>Flex-Start</h2>
+      <p> all items will be positioned in order starting, from the left of the parent container, with no extra space between or before them.</p>
+      <div class="flex-container" id="flex-start">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <h2>Flex-End</h2>
+      <p>all items will be positioned in order, with the last item starting on the right side of the parent container, with no extra space between or after them.</p>
+      <div class="flex-container" id="flex-end">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <h2>Center</h2>
+      <p>all items will be positioned in order, in the center of the parent container with no extra space before, between, or after them.</p>
+      <div class="flex-container" id="center">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <h2>Space-Around</h2>
+      <p>items will be positioned with equal space before and after each item, resulting in double the space between elements.</p>
+      <div class="flex-container" id="space-around">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+      <h2>Space-Between</h2>
+      <p>items will be positioned with equal space between them, but no extra space before the first or after the last elements.</p>
+      <div class="flex-container" id="space-between">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </div>
+    </div>
   </main>
 </body>
 </html>
